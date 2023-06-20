@@ -11,3 +11,5 @@
 ### Инструменты: Tableau, Pandas, SQLalchemy
 
 ### Ссылка на дашборд: https://public.tableau.com/app/profile/svetlana.gaisinovich/viz/study_project_Dzen_Yandex_Dashboard/DashboardYandex_Dzen
+
+### ССылка на презентацию: https://disk.yandex.ru/d/m9-hm3_wHy8bTQ
