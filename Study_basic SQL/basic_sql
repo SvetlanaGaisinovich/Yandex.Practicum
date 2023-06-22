@@ -1,1 +1,16 @@
+-- Проект выполняется в интерактивном тренажере на платформе Яндекс.Практикума --
+/* Состоит из 23 заданий на составление запросов к БД (PostgreSQL) на основе датасета Startup Investments с Kaggle (https://www.kaggle.com/justinas/startup-investments) */
+
+/* Задание 1. Посчитайте, сколько компаний закрылось. */
+SELECT COUNT(status)
+FROM company
+WHERE status = 'closed';
+
+/* Задание 2. Отобразите количество привлечённых средств для новостных компаний США. 
+Используйте данные из таблицы company. Отсортируйте таблицу по убыванию значений в поле funding_total. */
+SELECT funding_total
+FROM company
+WHERE category_code = 'news'
+      AND country_code = 'USA'
+ORDER BY funding_total DESC
 
